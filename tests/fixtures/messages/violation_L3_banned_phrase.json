@@ -1,0 +1,56 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "L3 — the agency-speak list from the outreach rules and PLAN.md §5.4.",
+  "drafts": [
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the compactor doesn't take messages",
+      "body": "Hey Alex,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nI'd love to connect and hear how you handle it.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "acme hardscape",
+      "_first_name": "Alex",
+      "_expect_rules": ["L3"]
+    },
+    {
+      "prospect_key": "graniteridgestoneworks.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "quick question",
+      "body": "Hey Marco,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "granite ridge stoneworks",
+      "_first_name": "Marco",
+      "_expect_rules": ["L3"]
+    },
+    {
+      "prospect_key": "pinebluffoutdoor.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the phone that runs you",
+      "body": "Hey Dana,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nhoping to find a cutting-edge way to streamline the whole thing for you.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "pine bluff",
+      "_first_name": "Dana",
+      "_expect_rules": ["L3"]
+    },
+    {
+      "prospect_key": "oakhollowpatios.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the calls after five",
+      "body": "Hey there,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "oak hollow",
+      "_first_name": "Rick",
+      "_expect_rules": ["L3"]
+    },
+    {
+      "prospect_key": "alderfieldhardscape.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the ones that never ring twice",
+      "body": "Hey Tom,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nthere is a simple solution to the whole missed-call thing.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "alderfield hardscape",
+      "_first_name": "Tom",
+      "_expect_rules": ["L3"]
+    }
+  ]
+}

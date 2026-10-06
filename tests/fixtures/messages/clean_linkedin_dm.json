@@ -1,0 +1,16 @@
+{
+  "batch_id": "B-TEST-DM",
+  "_note": "Clean Message 1, LinkedIn DM: 3 sentences, under 300 chars, no subject, no signature line.",
+  "drafts": [
+    {
+      "prospect_key": "graniteridgestoneworks.com",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "most hardscape owners I meet already tried an answering service and ended up right back at voicemail. you're on the compactor, the phone buzzes twice, and the homeowner just calls the next crew on the list. did you land on something better?",
+      "_company_casual": "granite ridge stoneworks",
+      "_first_name": "Marco",
+      "_expect_rules": []
+    }
+  ]
+}

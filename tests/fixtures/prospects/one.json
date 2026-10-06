@@ -1,0 +1,25 @@
+[
+  {
+    "company_name": "Blue Valley Hardscapes",
+    "website_url": "https://bluevalleyhardscapes.com",
+    "us_state": "ID",
+    "owner_first_name": "Morgan",
+    "icp_fit_note": "6-man crew, owner still on the skid steer most days",
+    "hook_fact": "148 five-star reviews on Google",
+    "company_casual": "blue valley hardscapes",
+    "emails": [
+      {"address": "morgan@bluevalleyhardscapes.com", "source": "website"}
+    ],
+    "linkedin": [
+      {"address": "https://linkedin.com/in/morgan-bluevalley", "source": "linkedin"}
+    ],
+    "whatsapp": [
+      {"address": "+1 (208) 555-0142", "source": "website"}
+    ],
+    "messenger": [
+      {"address": "https://m.me/bluevalleyhardscapes", "source": "website"}
+    ],
+    "source": "lead-scout",
+    "source_detail": "phase-0 smoke fixture"
+  }
+]

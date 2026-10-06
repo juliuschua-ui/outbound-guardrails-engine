@@ -1,0 +1,16 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "Clean Message 2 (reply-gated). Carries the demo link exactly once — proving L1/L2/L8 correctly do NOT apply to step 2, and L11 is satisfied.",
+  "drafts": [
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 2,
+      "subject": "the demo from earlier",
+      "body": "Hey Alex,\n\nglad it resonated - you're definitely not alone in this. I built something for exactly this problem: it answers the calls you can't get to, qualifies the lead, and handles the after-hours ones.\n\nbefore I pitch you anything I want you to hear what it sounds like for your own company: https://brightdesk.brightflowcure.com/demo-ai-voice\n\nSam",
+      "_company_casual": "acme hardscape",
+      "_first_name": "Alex",
+      "_expect_rules": []
+    }
+  ]
+}

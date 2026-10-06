@@ -1,0 +1,86 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "L5 — unresolved placeholders and token-shaped holes. A literal {first_name} shipping is worse than sending nothing: it marks the message as automated to exactly the skeptic this system exists to convert.",
+  "drafts": [
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the compactor doesn't take messages",
+      "body": "Hey {first_name},\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "acme hardscape",
+      "_first_name": "Alex",
+      "_expect_rules": ["L5"]
+    },
+    {
+      "prospect_key": "graniteridgestoneworks.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "two hours into a paver base",
+      "body": "Hey Marco,\n\nmost owners at [Company Name] already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "granite ridge stoneworks",
+      "_first_name": "Marco",
+      "_expect_rules": ["L5"]
+    },
+    {
+      "prospect_key": "pinebluffoutdoor.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the phone that runs you",
+      "body": "Hi ,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "pine bluff",
+      "_first_name": "Dana",
+      "_expect_rules": ["L5"]
+    },
+    {
+      "prospect_key": "oakhollowpatios.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the calls after five",
+      "body": "Hey Rick,\n\nsaw the work at .\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "oak hollow",
+      "_first_name": "Rick",
+      "_expect_rules": ["L5"]
+    },
+    {
+      "prospect_key": "alderfieldhardscape.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the ones that never ring twice",
+      "body": "Hey Tom,\n\nnice work on  last month, that retaining wall is no joke.\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "alderfield hardscape",
+      "_first_name": "Tom",
+      "_expect_rules": ["L5"]
+    },
+    {
+      "prospect_key": "mesagrandepavers.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the backyard call at seven",
+      "body": "Hey Luis,\n\nand the phone still runs you, which is the part nobody warns you about.\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "mesa grande",
+      "_first_name": "Luis",
+      "_expect_rules": ["L5"]
+    },
+    {
+      "prospect_key": "sunvalleystoneaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the homeowner already called the next crew",
+      "body": "Hey Pete,\n\ngreat work.\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "sun valley stone",
+      "_first_name": "Pete",
+      "_expect_rules": ["L5"]
+    },
+    {
+      "prospect_key": "redrockmasonryaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "hook_fact goes here",
+      "body": "Hey Sam,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "red rock masonry",
+      "_first_name": "Sam",
+      "_expect_rules": ["L5"]
+    }
+  ]
+}

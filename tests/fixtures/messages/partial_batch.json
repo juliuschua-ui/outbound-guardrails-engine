@@ -1,0 +1,52 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "Ingest robustness (PLAN.md §9 edges 14-15, §10 row (i)). Seven rows: two good, one prospect_key not in the batch, one duplicate key, one with no body, one that is not an object, one with no prospect_key. Nothing may be silently dropped — every row lands in exactly one bucket, and the good drafts carry extra unknown keys that ingest must tolerate.",
+  "_unknown_top_level_key": "ingest ignores this",
+  "drafts": [
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the compactor doesn't take messages",
+      "body": "Hey Alex,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "variant_used": "V1.1",
+      "confidence": 0.9,
+      "notes_from_the_writer": "leaned on the burned-before angle"
+    },
+    {
+      "prospect_key": "notinthisbatch.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "a subject for a stranger",
+      "body": "Hey Someone,\n\nthis prospect was never assigned to this batch and must not be written to the database.\n\nhow many calls do you figure slip by in a week?\n\nSam"
+    },
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "a second bite at the same prospect",
+      "body": "Hey Alex,\n\nthe writer answered twice for the same prospect and the second one must not overwrite the first.\n\nhow many calls do you figure slip by in a week?\n\nSam"
+    },
+    {
+      "prospect_key": "pinebluffoutdoor.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the phone that runs you"
+    },
+    {
+      "prospect_key": "graniteridgestoneworks.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "two hours into a paver base",
+      "body": "Hey Marco,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "unexpected_key": ["anything", "at", "all"]
+    },
+    "this row is a string, not a draft",
+    {
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "no prospect key at all",
+      "body": "Hey nobody,\n\nthere is no prospect_key on this row so it cannot be matched to anything.\n\nhow many calls do you figure slip by in a week?\n\nSam"
+    }
+  ]
+}

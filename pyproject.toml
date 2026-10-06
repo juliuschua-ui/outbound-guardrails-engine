@@ -1,0 +1,12 @@
+[project]
+name = "dm-engine"
+version = "0.1.0"
+description = "Outbound DM Engine — variant-instrumented outreach queue with no send code"
+requires-python = ">=3.12"
+# No dependencies, by design (PLAN.md §14 non-goal 6): stdlib only. The gmail-helper
+# skill scripts imported by gmail_compat.py bring their own googleapiclient/dnspython.
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

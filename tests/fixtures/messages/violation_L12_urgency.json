@@ -1,0 +1,26 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "L12 — no fake urgency (standing outreach rule).",
+  "drafts": [
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the compactor doesn't take messages",
+      "body": "Hey Alex,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\ndon't miss another one of those, act now before the season turns.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "acme hardscape",
+      "_first_name": "Alex",
+      "_expect_rules": ["L12"]
+    },
+    {
+      "prospect_key": "graniteridgestoneworks.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "last chance before spring books up",
+      "body": "Hey Marco,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "granite ridge stoneworks",
+      "_first_name": "Marco",
+      "_expect_rules": ["L12"]
+    }
+  ]
+}

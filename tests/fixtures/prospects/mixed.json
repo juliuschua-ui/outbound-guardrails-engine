@@ -1,0 +1,86 @@
+[
+  {
+    "company_name": "Acme Hardscape",
+    "website_url": "https://acmehardscapeaz.com",
+    "us_state": "AZ",
+    "owner_first_name": "Alex",
+    "icp_fit_note": "8-man crew, owner still installing",
+    "hook_fact": "212 five-star reviews on Google",
+    "company_casual": "acme hardscape",
+    "emails": [
+      {"address": "alex@acmehardscapeaz.com", "source": "website"}
+    ],
+    "linkedin": [
+      {"address": "https://linkedin.com/in/alex-x", "source": "linkedin"}
+    ],
+    "whatsapp": [
+      {"address": "+1 (602) 555-0134", "source": "website"}
+    ],
+    "messenger": [
+      {"address": "https://www.facebook.com/acmehardscapeaz", "source": "website"}
+    ],
+    "source": "lead-scout",
+    "source_detail": "LEA-batch prompt 2026-08"
+  },
+  {
+    "company_name": "Acme Hardscape",
+    "website_url": "https://www.acmehardscapeaz.com/services",
+    "us_state": "AZ",
+    "owner_first_name": "Alex",
+    "icp_fit_note": "duplicate-domain pair: same company, second source, different URL form",
+    "hook_fact": "212 five-star reviews on Google",
+    "company_casual": "acme hardscape",
+    "emails": [
+      {"address": "alex@acmehardscapeaz.com", "source": "directory"}
+    ],
+    "source": "gmaps-leads",
+    "source_detail": "gmaps Glendale AZ sweep"
+  },
+  {
+    "company_name": "Granite Ridge Stoneworks",
+    "website_url": "https://granitestoneworks.com",
+    "us_state": "AZ",
+    "icp_fit_note": "no owner name found on site or LinkedIn — name-free opener required",
+    "hook_fact": "22 years building travertine patios in the west valley",
+    "company_casual": "granite ridge stoneworks",
+    "emails": [
+      {"address": "info@granitestoneworks.com", "source": "website"}
+    ],
+    "messenger": [
+      {"address": "https://m.me/granitestoneworks", "source": "website"}
+    ],
+    "source": "lead-scout",
+    "source_detail": "missing owner_first_name case"
+  },
+  {
+    "company_name": "Cedar Bend Outdoor Living LLC",
+    "website_url": "http://hillcountryoutdoorliving.com",
+    "us_state": "TX",
+    "owner_first_name": "Dale",
+    "owner_last_name": "Rutherford",
+    "icp_fit_note": "outdoor kitchens + pergolas, 12 employees, owner runs sales and installs",
+    "hook_fact": "featured build in a 2025 Austin outdoor living tour",
+    "company_casual": "cedar bend outdoor living",
+    "emails": [
+      {"address": "dale@hillcountryoutdoorliving.com", "source": "website"}
+    ],
+    "source": "scrape-leads",
+    "source_detail": "national territory — us_state outside Arizona"
+  },
+  {
+    "company_name": "Pinecrest Patio Co",
+    "us_state": "AZ",
+    "owner_first_name": "Bo",
+    "icp_fit_note": "no website; found via Google Maps listing only",
+    "company_casual": "pinecrest patio",
+    "emails": [
+      {"address": "pinecrestpatioco@gmail.com", "source": "directory"}
+    ],
+    "whatsapp": [
+      {"address": "602-555-0177", "source": "directory"},
+      {"address": "call us!", "source": "directory"}
+    ],
+    "source": "gmaps-leads",
+    "source_detail": "no website -> name-slug prospect_key; no hook_fact -> compose blocked"
+  }
+]

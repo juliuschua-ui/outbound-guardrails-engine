@@ -1,0 +1,218 @@
+[
+  {
+    "company_name": "Summit Paver Co",
+    "website_url": "https://summitpaver.example",
+    "us_state": "ID",
+    "owner_first_name": "Jordan",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "142 five-star reviews on Google",
+    "company_casual": "summit paver",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-jordan-summitpaver",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  },
+  {
+    "company_name": "Cedar Ridge Hardscapes",
+    "website_url": "https://cedarridgehardscapes.example",
+    "us_state": "ID",
+    "owner_first_name": "Casey",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "a 12-year-old family business",
+    "company_casual": "cedar ridge hardscapes",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-casey-cedarridgehardscapes",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  },
+  {
+    "company_name": "Lakeshore Outdoor Living",
+    "website_url": "https://lakeshoreoutdoor.example",
+    "us_state": "ID",
+    "owner_first_name": "Riley",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "a full backyard build in the portfolio",
+    "company_casual": "lakeshore outdoor living",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-riley-lakeshoreoutdoor",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  },
+  {
+    "company_name": "Harbor Stone & Patio",
+    "website_url": "https://harborstonepatio.example",
+    "us_state": "ID",
+    "owner_first_name": "Taylor",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "crew photos on every job page",
+    "company_casual": "harbor stone and patio",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-taylor-harborstonepatio",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  },
+  {
+    "company_name": "Redwood Pavers",
+    "website_url": "https://redwoodpavers.example",
+    "us_state": "ID",
+    "owner_first_name": "Quinn",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "a waitlist mentioned on the homepage",
+    "company_casual": "redwood pavers",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-quinn-redwoodpavers",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  },
+  {
+    "company_name": "Granite Peak Landscapes",
+    "website_url": "https://granitepeaklandscapes.example",
+    "us_state": "ID",
+    "owner_first_name": "Avery",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "two-week lead times posted on the site",
+    "company_casual": "granite peak landscapes",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-avery-granitepeaklandscapes",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  },
+  {
+    "company_name": "Willow Creek Hardscape",
+    "website_url": "https://willowcreekhardscape.example",
+    "us_state": "ID",
+    "owner_first_name": "Drew",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "a recent retaining-wall project",
+    "company_casual": "willow creek hardscape",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-drew-willowcreekhardscape",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  },
+  {
+    "company_name": "Ironbridge Outdoor",
+    "website_url": "https://ironbridgeoutdoor.example",
+    "us_state": "ID",
+    "owner_first_name": "Reese",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "owner on site in most photos",
+    "company_casual": "ironbridge outdoor",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-reese-ironbridgeoutdoor",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  },
+  {
+    "company_name": "Prairie Stone Works",
+    "website_url": "https://prairiestoneworks.example",
+    "us_state": "ID",
+    "owner_first_name": "Parker",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "a Spanish-language page for customers",
+    "company_casual": "prairie stone works",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-parker-prairiestoneworks",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  },
+  {
+    "company_name": "Maple Court Patios",
+    "website_url": "https://maplecourtpatios.example",
+    "us_state": "ID",
+    "owner_first_name": "Skyler",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "free estimates advertised",
+    "company_casual": "maple court patios",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-skyler-maplecourtpatios",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  },
+  {
+    "company_name": "Copper Hill Pavers",
+    "website_url": "https://copperhillpavers.example",
+    "us_state": "ID",
+    "owner_first_name": "Rowan",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "a financing partner listed",
+    "company_casual": "copper hill pavers",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-rowan-copperhillpavers",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  },
+  {
+    "company_name": "Birchwood Outdoor Living",
+    "website_url": "https://birchwoodoutdoor.example",
+    "us_state": "ID",
+    "owner_first_name": "Emerson",
+    "icp_fit_note": "small crew, owner still on the equipment most days",
+    "hook_fact": "a seasonal booking calendar",
+    "company_casual": "birchwood outdoor living",
+    "emails": [],
+    "linkedin": [
+      {
+        "address": "https://www.linkedin.com/in/demo-emerson-birchwoodoutdoor",
+        "source": "linkedin"
+      }
+    ],
+    "source": "synthetic",
+    "source_detail": "demo dataset, all names fictional"
+  }
+]

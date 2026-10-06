@@ -1,0 +1,36 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "L6 — email subject rules: present, entirely lowercase, <=60 chars.",
+  "drafts": [
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "The Compactor Doesn't Take Messages",
+      "body": "Hey Alex,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "acme hardscape",
+      "_first_name": "Alex",
+      "_expect_rules": ["L6"]
+    },
+    {
+      "prospect_key": "graniteridgestoneworks.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "",
+      "body": "Hey Marco,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "granite ridge stoneworks",
+      "_first_name": "Marco",
+      "_expect_rules": ["L6"]
+    },
+    {
+      "prospect_key": "pinebluffoutdoor.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the compactor does not take messages and neither does the voicemail box",
+      "body": "Hey Dana,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nyou're on the compactor and the homeowner calls the next crew on the list.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "pine bluff",
+      "_first_name": "Dana",
+      "_expect_rules": ["L6"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "Everything wrong at once — the report must list every rule, not stop at the first. Capitalized subject (L6), URL (L1), product name (L2), banned phrase (L3), emoji (L4), literal token (L5), two questions (L8), fake urgency (L12).",
+  "drafts": [
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "Quick Question About Your Missed Calls",
+      "body": "Hey {first_name},\n\nI'd love to connect about what we're building 🚀\n\nBDAI is a cutting-edge solution for contractors like you — see https://brightdesk.brightflowcure.com/demo-ai-voice and don't miss it.\n\nare you free this week? what does Tuesday look like?\n\nSam Taylor, Founder",
+      "_company_casual": "ACME HARDSCAPE LLC",
+      "_first_name": "Alex",
+      "_expect_rules": ["L1", "L2", "L3", "L4", "L5", "L6", "L8", "L10", "L12"]
+    }
+  ]
+}

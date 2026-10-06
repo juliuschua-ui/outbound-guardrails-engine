@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# dmctl — the engine's entrypoint. Run it from anywhere:
+#
+#     ./dmctl init
+#     ./dmctl sheet
+#
+# A shim rather than a [project.scripts] console script on purpose: a console script
+# only exists after `pip install -e .`, and this box is PEP 668 managed (no installs).
+# This works against the checked-out tree with the project venv and nothing else.
+set -euo pipefail
+
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+python="$here/.venv/bin/python"
+[ -x "$python" ] || python="$(command -v python3)"
+
+PYTHONPATH="$here/src${PYTHONPATH:+:$PYTHONPATH}" exec "$python" -m dm_engine.cli "$@"

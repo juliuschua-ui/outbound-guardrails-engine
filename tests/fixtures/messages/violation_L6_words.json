@@ -1,0 +1,16 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "L6 — email body over the 120-word cap declared by the channel constraints.",
+  "drafts": [
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the compactor doesn't take messages",
+      "body": "Hey Alex,\n\nmost hardscape owners I talk to have already tried an answering service or some chatbot for the phones, and nine times out of ten it made things worse instead of better, because the person on the other end had no idea what a paver base is or how long a job like that actually takes to price out properly on a real site walk.\n\nyou are two hours into a paver base, the phone buzzes twice, and by the time you are off the compactor and have your gloves off that homeowner has already worked their way down the list and called the next crew, and you never even knew the call happened at all, which is the part that stings the most about the whole thing.\n\nhow many of those do you figure slip by in a normal week?\n\nSam",
+      "_company_casual": "acme hardscape",
+      "_first_name": "Alex",
+      "_expect_rules": ["L6"]
+    }
+  ]
+}

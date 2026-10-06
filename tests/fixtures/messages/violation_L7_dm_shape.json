@@ -1,0 +1,36 @@
+{
+  "batch_id": "B-TEST-DM",
+  "_note": "L7 — LinkedIn DM shape: <=3 sentences, <=300 chars, no subject. Enforced from the channel's declared constraints, not a hardcoded per-channel branch.",
+  "drafts": [
+    {
+      "prospect_key": "graniteridgestoneworks.com",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "most hardscape owners I meet already tried an answering service. it usually made things worse. you end up back at voicemail. the homeowner calls the next crew on the list. did you land on something better?",
+      "_company_casual": "granite ridge stoneworks",
+      "_first_name": "Marco",
+      "_expect_rules": ["L7"]
+    },
+    {
+      "prospect_key": "pinebluffoutdoor.com",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": "the compactor doesn't take messages",
+      "body": "most hardscape owners I meet already tried an answering service and ended up right back at voicemail. you're on the compactor and the homeowner just calls the next crew. did you land on something better?",
+      "_company_casual": "pine bluff",
+      "_first_name": "Dana",
+      "_expect_rules": ["L7"]
+    },
+    {
+      "prospect_key": "oakhollowpatios.com",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "most hardscape owners I meet have already tried an answering service of some kind for the phones and ended up right back at voicemail inside of a month, which is about the least surprising outcome there is. you are two hours into a paver base, the phone buzzes twice, and by the time you are off the compactor that homeowner has already called the next crew on the list. did you land on something better after that?",
+      "_company_casual": "oak hollow",
+      "_first_name": "Rick",
+      "_expect_rules": ["L7"]
+    }
+  ]
+}

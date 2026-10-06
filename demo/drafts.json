@@ -1,0 +1,90 @@
+{
+  "batch_id": "B-DEMO-1",
+  "_note": "Synthetic demo drafts. 9 are clean; 3 (redwood: link, summit: product name, willow: emoji) break a rule on purpose so the lint gate has something to catch.",
+  "drafts": [
+    {
+      "prospect_key": "birchwoodoutdoor.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "most outdoor living owners I meet already tried an answering service and ended up back at voicemail. with a seasonal booking calendar like yours, a missed call in april is a lost summer. did you land on something better?"
+    },
+    {
+      "prospect_key": "cedarridgehardscapes.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "twelve years in, the phone still follows you onto every job site. that's usually the sign a crew is growing past one set of hands. who picks up when you're knee deep in a base?"
+    },
+    {
+      "prospect_key": "copperhillpavers.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "copper hill lists a financing partner, which tells me people are saying yes to the big jobs. the crew down the road quietly wins the ones that hit voicemail first. how many calls a week ring out?"
+    },
+    {
+      "prospect_key": "granitepeaklandscapes.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "your homepage posts two-week lead times, so your buyers are probably shopping after your day ends. the next name on their list answers at 8pm. who gets those calls at granite peak?"
+    },
+    {
+      "prospect_key": "harborstonepatio.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "harbor stone has crew photos on every job page, which is the kind of proof that earns the call. the call lands on voicemail while the crew is in the photo. what happens to it?"
+    },
+    {
+      "prospect_key": "ironbridgeoutdoor.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "ironbridge's owner shows up in most of the job photos, which is great for the work and rough on the phone. getting off the tools starts with someone else picking up. who is that today?"
+    },
+    {
+      "prospect_key": "lakeshoreoutdoor.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "most owners running full backyard builds already tried an answering service and went back to voicemail. a build that size starts with one good call. did you find a better way to catch it?"
+    },
+    {
+      "prospect_key": "maplecourtpatios.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "you advertise free estimates, so every missed call is a free estimate you never got to give. two hours into a paver base the phone buzzes twice and the homeowner calls the next crew. how many slip by in a week?"
+    },
+    {
+      "prospect_key": "prairiestoneworks.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "prairie stone works has a Spanish-language page, so some of your buyers search in the evening in a second language. the call that comes in at 7pm usually goes to whoever answers. who answers yours?"
+    },
+    {
+      "prospect_key": "redwoodpavers.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "redwood has a waitlist, and the math on missed calls is brutal. see https://example.com/missed-calls for the numbers. how many slip by in a week?"
+    },
+    {
+      "prospect_key": "summitpaver.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "summit paver has 142 five-star reviews, and BrightFlow Cure answers every call you miss. two hours into a base the phone buzzes twice. want to see it?"
+    },
+    {
+      "prospect_key": "willowcreekhardscape.example",
+      "channel": "linkedin",
+      "sequence_step": 1,
+      "subject": null,
+      "body": "willow creek just finished a retaining wall, nice work 🙂. two hours into the next one the phone buzzes twice and the homeowner calls the next crew. who picks up while you're on it?"
+    }
+  ]
+}

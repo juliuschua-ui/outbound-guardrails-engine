@@ -1,0 +1,56 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "PLAN.md §10 row (l) — lint bypass via Unicode. Cyrillic homoglyphs, zero-width joins, fullwidth forms and a fullwidth full stop all fold to ASCII in normalize() BEFORE any rule runs, so L1/L2 still fire.",
+  "drafts": [
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the compactor doesn't take messages",
+      "body": "Hey Alex,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nbdаi answers those calls in about two rings.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "acme hardscape",
+      "_first_name": "Alex",
+      "_expect_rules": ["L2"]
+    },
+    {
+      "prospect_key": "graniteridgestoneworks.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "two hours into a paver base",
+      "body": "Hey Marco,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nbright​flow‍cure was built for exactly this.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "granite ridge stoneworks",
+      "_first_name": "Marco",
+      "_expect_rules": ["L2"]
+    },
+    {
+      "prospect_key": "pinebluffoutdoor.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the phone that runs you",
+      "body": "Hey Dana,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nthe write-up lives at ｗｗｗ．ｅｘａｍｐｌｅ．ｃｏｍ for later.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "pine bluff",
+      "_first_name": "Dana",
+      "_expect_rules": ["L1"]
+    },
+    {
+      "prospect_key": "oakhollowpatios.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the calls after five",
+      "body": "Hey Rick,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nI was looking at oakhollowpatios．com and the work is sharp.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "oak hollow",
+      "_first_name": "Rick",
+      "_expect_rules": ["L1"]
+    },
+    {
+      "prospect_key": "alderfieldhardscape.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the ones that never ring twice",
+      "body": "Hey Tom,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\n𝐛𝐝𝐚𝐢 picks those up before the second ring.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "alderfield hardscape",
+      "_first_name": "Tom",
+      "_expect_rules": ["L2"]
+    }
+  ]
+}

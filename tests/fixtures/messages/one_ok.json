@@ -1,0 +1,16 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "Clean Message 1, email. Passes every rule L1-L12. Named one_ok.json because PLAN.md §11 Phase 0 calls it by that path, and keyed to bluevalleyhardscapes.com because that is the prospect tests/fixtures/prospects/one.json seeds — the two Phase-0 fixtures must name the same company or ingest-drafts correctly reports it as both missing and unknown.",
+  "drafts": [
+    {
+      "prospect_key": "bluevalleyhardscapes.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the skid steer doesn't take messages",
+      "body": "Hey Morgan,\n\nmost hardscape owners I talk to already tried an answering service or some chatbot for the phones, and it made things worse instead of better.\n\nyou're two hours into a paver base, the phone buzzes twice, and by the time you're off the skid steer that homeowner already called the next crew on the list.\n\nhow many of those do you figure slip by in a week?\n\nSam",
+      "_company_casual": "blue valley hardscapes",
+      "_first_name": "Morgan",
+      "_expect_rules": []
+    }
+  ]
+}

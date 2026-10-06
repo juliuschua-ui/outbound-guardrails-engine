@@ -1,0 +1,26 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "L11 — Message 2 must carry the demo link exactly once and greet by the prospect's real first name.",
+  "drafts": [
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 2,
+      "subject": "the demo from earlier",
+      "body": "Hey Alex,\n\nglad it resonated - you're definitely not alone in this. I built something for exactly this problem: it answers the calls you can't get to and qualifies the lead.\n\nbefore I pitch you anything I want you to hear what it sounds like for your own company.\n\nSam",
+      "_company_casual": "acme hardscape",
+      "_first_name": "Alex",
+      "_expect_rules": ["L11"]
+    },
+    {
+      "prospect_key": "graniteridgestoneworks.com",
+      "channel": "email",
+      "sequence_step": 2,
+      "subject": "the demo from earlier this week",
+      "body": "Hey there,\n\nglad it resonated. here is the demo: https://brightdesk.brightflowcure.com/demo-ai-voice and here it is again https://brightdesk.brightflowcure.com/demo-ai-voice in case the first one broke.\n\nSam",
+      "_company_casual": "granite ridge stoneworks",
+      "_first_name": "Marco",
+      "_expect_rules": ["L3", "L11"]
+    }
+  ]
+}

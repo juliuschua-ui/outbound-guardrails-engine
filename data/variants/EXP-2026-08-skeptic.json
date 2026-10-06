@@ -1,0 +1,124 @@
+{
+  "experiment": {
+    "id": "EXP-2026-08-skeptic",
+    "name": "Skeptic-first cold openers",
+    "hypothesis": "The ICP is skeptical because they already bought a cheaper answer (an answering service, a chatbot, 'we'll just use voicemail') and got burned. Pain-first messages that name that experience out-earn generic missed-call messages."
+  },
+  "notes": [
+    "This file is copy GUIDANCE for the outreach-specialist agent, not finished messages. Each variant defines an angle, an opening move, the pain it names, and a soft closing question. Fresh copy is written per prospect inside the variant's angle.",
+    "Message 1 is pain only: no links, no product name, no pitch, no offer, no calendar. One question mark, in the closing sentence. Sign as the operator.",
+    "Written guidance deliberately contains no brace or bracket placeholders — lint rule L5 hard-fails any of those reaching a body, and guidance pasted verbatim is the likeliest way that happens."
+  ],
+  "variants": [
+    {
+      "family": "V1",
+      "version": 1,
+      "name": "burned-before",
+      "angle": "They already tried the cheap fix for the phones and it made things worse, not better.",
+      "min_n_gate": 30,
+      "spec": {
+        "structure": ["pain_opener", "soft_question"],
+        "required_tokens": ["first_name", "company_casual", "hook_fact"],
+        "opening_move": "Name the graveyard without naming any product. Most owners in their trade have already run an answering service or some chatbot at the phones, hated it, and quietly went back to voicemail.",
+        "pain_named": "The cheaper fix answered the phone but could not qualify anyone, so it cost money and still lost the lead. The skepticism is earned.",
+        "opener_guidance": "Open by conceding their skepticism before they have to voice it: most owners in their trade have already tried an answering service or some chatbot for the phones and it made things worse, not better. Reference their company by its casual name so it reads as one operator writing to another, never as a blast.",
+        "no_name_open": "Lead with the trade observation instead of a greeting: 'most hardscape owners I talk to have already tried...'. Never write 'Hey there'.",
+        "soft_question_examples": [
+          "did you end up back at voicemail too?",
+          "what did you land on after that?",
+          "was that your experience with it as well?"
+        ],
+        "email_adaptation": "Expand to at most 120 words: hook paragraph tied to their company, pain bridge naming the failed cheap fix, closing question. Lowercase subject, unique per prospect.",
+        "dm_constraint": "At most 3 sentences and 300 characters. No greeting line needed, no subject."
+      }
+    },
+    {
+      "family": "V2",
+      "version": 1,
+      "name": "missed-call-math",
+      "angle": "Mid-install economics: the phone rings while both hands are busy, and the homeowner just calls the next company.",
+      "min_n_gate": 30,
+      "spec": {
+        "structure": ["pain_opener", "soft_question"],
+        "required_tokens": ["first_name", "company_casual", "hook_fact"],
+        "opening_move": "Put them physically on the job. Two hours into a paver base, the phone buzzes twice, and by the time they are off the compactor that homeowner has already reached the next company on the list.",
+        "pain_named": "A missed call is not a delayed call. It is a lead that already went somewhere else and never told them.",
+        "opener_guidance": "Write the specific physical moment, not the abstraction. Use the work their company actually does (from the hook fact) so the scene is theirs: the compactor, the skid steer, the screed, the excavator, the crew waiting. The math stays implicit — do not quote industry statistics or invent numbers.",
+        "no_name_open": "Open on the scene itself rather than a greeting: 'you're two hours into a paver base and the phone buzzes twice...'.",
+        "soft_question_examples": [
+          "how many of those do you figure slip by in a week?",
+          "who picks up when the crew is mid-pour?",
+          "does anything catch those, or do they just go?"
+        ],
+        "email_adaptation": "Expand to at most 120 words: the mid-install scene, the bridge to where that call goes instead, closing question. Lowercase subject, unique per prospect.",
+        "dm_constraint": "At most 3 sentences and 300 characters. No greeting line needed, no subject."
+      }
+    },
+    {
+      "family": "V3",
+      "version": 1,
+      "name": "off-the-tools",
+      "angle": "The scaling identity: getting off the tools was supposed to mean running the business, but the phone still runs them.",
+      "min_n_gate": 30,
+      "spec": {
+        "structure": ["pain_opener", "soft_question"],
+        "required_tokens": ["first_name", "company_casual", "hook_fact"],
+        "opening_move": "Name the transition they are already in the middle of — getting off the tools — and then name the one thing that keeps dragging them back onto call duty.",
+        "pain_named": "They can hand off installs. They cannot hand off the phone, so they are still on-call for a job they were supposed to have grown out of.",
+        "opener_guidance": "'Getting off the tools' is their language, not marketing language — use it plainly and do not explain it. Tie it to something concrete about their company (crew size, years, the work in the hook fact) so it reads as observed rather than assumed. Do not congratulate them; operators hear that as flattery.",
+        "no_name_open": "Open on the transition: 'getting off the tools was supposed to mean running the business...'.",
+        "soft_question_examples": [
+          "is the phone the last thing keeping you on-call?",
+          "did the phone come with you when you stepped back?",
+          "what is still pulling you back onto the truck?"
+        ],
+        "email_adaptation": "Expand to at most 120 words: the identity hook, the bridge to the phone still owning their day, closing question. Lowercase subject, unique per prospect.",
+        "dm_constraint": "At most 3 sentences and 300 characters. No greeting line needed, no subject."
+      }
+    },
+    {
+      "family": "V4",
+      "version": 1,
+      "name": "after-hours",
+      "angle": "Homeowners plan backyards at 7pm, right when the contractor's own day ends.",
+      "min_n_gate": 30,
+      "spec": {
+        "structure": ["pain_opener", "soft_question"],
+        "required_tokens": ["first_name", "company_casual", "hook_fact"],
+        "opening_move": "Name the clock mismatch: their buyers do their shopping after their own workday, which is exactly when the contractor has knocked off.",
+        "pain_named": "The highest-intent calls arrive in the window nobody is covering, so they land in a voicemail box that gets checked the next morning — after the homeowner has already booked someone.",
+        "opener_guidance": "Use their actual market by city name so the observation is local, not generic. Keep the timing concrete (evenings, after dinner, weekends) rather than the phrase 'after hours', which reads like a category rather than a moment. No statistics.",
+        "no_name_open": "Open on the timing observation: 'the homeowners planning a backyard call at 7pm, right when your day ends too'.",
+        "soft_question_examples": [
+          "what happens to the calls that come in after you knock off?",
+          "does anyone catch the evening ones?",
+          "do those get called back the next morning, or not at all?"
+        ],
+        "email_adaptation": "Expand to at most 120 words: the evening-call observation for their city, the bridge to where those calls land, closing question. Lowercase subject, unique per prospect.",
+        "dm_constraint": "At most 3 sentences and 300 characters. No greeting line needed, no subject."
+      }
+    },
+    {
+      "family": "V5",
+      "version": 1,
+      "name": "competitor-quietly-wins",
+      "angle": "The invisible loss: the work sells itself, but only to the leads that actually got through.",
+      "min_n_gate": 30,
+      "spec": {
+        "structure": ["pain_opener", "soft_question"],
+        "required_tokens": ["first_name", "company_casual", "hook_fact"],
+        "opening_move": "Lead with their proof — the review count, the years, the named build in the hook fact — then turn it: the lead that never heard the phone ring never sees any of it.",
+        "pain_named": "They never find out about the losses. There is no voicemail, no bounce, no notification — the competitor just quietly wins and nobody tells them.",
+        "opener_guidance": "The hook fact must be real and verifiable and must carry the first sentence; this variant does not work on a generic opener. Give them the credit sincerely and briefly, then make the loss invisible rather than dramatic. Do not name or imply a specific competitor.",
+        "no_name_open": "Open on the proof itself: '212 five-star reviews says the work sells itself — but the lead you never heard ring never sees the work'.",
+        "soft_question_examples": [
+          "do you ever find out about the ones that didn't leave a voicemail?",
+          "how would you even know about those?",
+          "any way to see the ones that never rang through?"
+        ],
+        "email_adaptation": "Expand to at most 120 words: the proof hook from the verified fact, the bridge to the leads that never reached it, closing question. Lowercase subject, unique per prospect.",
+        "dm_constraint": "At most 3 sentences and 300 characters. No greeting line needed, no subject."
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "website_url": "https://nonamehardscape.com",
+    "us_state": "AZ",
+    "owner_first_name": "Rey",
+    "hook_fact": "no company_name key at all",
+    "source": "lead-scout",
+    "source_detail": "error path: required field company_name missing"
+  },
+  {
+    "company_name": "Statleless Stoneworks",
+    "website_url": "https://statelessstoneworks.com",
+    "owner_first_name": "Kim",
+    "hook_fact": "no us_state key",
+    "source": "lead-scout",
+    "source_detail": "error path: required field us_state missing"
+  },
+  {
+    "company_name": "Alberta Interlock",
+    "website_url": "https://albertainterlock.ca",
+    "us_state": "AB",
+    "owner_first_name": "Ryan",
+    "hook_fact": "non-US prospect scraped by accident (PLAN edge 7)",
+    "source": "scrape-leads",
+    "source_detail": "error path: us_state is not a US state -> no timezone mapping"
+  },
+  "this entry is a bare string, not a prospect object"
+]

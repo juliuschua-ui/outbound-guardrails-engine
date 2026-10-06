@@ -1,0 +1,36 @@
+{
+  "batch_id": "B-TEST-1",
+  "_note": "L2 — product identity in Message 1. Sam's hardest standing rule: step 1 is pain-only, no product name.",
+  "drafts": [
+    {
+      "prospect_key": "acmehardscapeaz.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the compactor doesn't take messages",
+      "body": "Hey Alex,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nI built BrightFlow Cure for exactly this and it answers every call.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "acme hardscape",
+      "_first_name": "Alex",
+      "_expect_rules": ["L2"]
+    },
+    {
+      "prospect_key": "graniteridgestoneworks.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "two hours into a paver base",
+      "body": "Hey Marco,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\nBDAI picks up every one of those in about two rings.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "granite ridge stoneworks",
+      "_first_name": "Marco",
+      "_expect_rules": ["L2"]
+    },
+    {
+      "prospect_key": "pinebluffoutdoor.com",
+      "channel": "email",
+      "sequence_step": 1,
+      "subject": "the phone that runs you",
+      "body": "Hey Dana,\n\nmost hardscape owners I talk to already tried an answering service for the phones and it made things worse instead of better.\n\na bright desk ai never takes a lunch break, that is the whole idea.\n\nhow many calls do you figure slip by in a week?\n\nSam",
+      "_company_casual": "pine bluff",
+      "_first_name": "Dana",
+      "_expect_rules": ["L2"]
+    }
+  ]
+}
