@@ -115,7 +115,7 @@ docs/                       the full plan, spec, manual and review notes
 - The email staging path calls a small Gmail helper that lives outside this repo. Two tests skip when it is not installed (`gmail-helper skill not installed on this host`); everything else, including the demo, runs without it.
 - Variants in `data/variants/` are copy *guidance* aimed at one narrow audience (hardscape contractors). They are an example of the format, not a general-purpose message library.
 - The product-name list in `lint.py` (rule L2) uses a placeholder brand ("BrightFlow") in this public copy, so the repo carries no real business names. Swap in your own.
-- It has been used on a small scale by one operator. I have not load-tested it, and I make no claims about throughput.
+- I have not load-tested it, and I make no claims about throughput or production use. What it demonstrates is the design and its tests.
 
 ## License
 
